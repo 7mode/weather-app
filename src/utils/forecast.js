@@ -14,7 +14,7 @@ forecast = (latitude, longitude, callback) => {
             const temperature = body.currently.temperature;
             const temperatureHigh = weatherData.temperatureHigh;
             const temperatureLow = weatherData.temperatureLow;
-            callback(undefined, weatherSummary + ' It is currently ' +  temperature + ' degrees out. This high today is ' + temperatureHigh +' with a low of' + temperatureLow)
+            callback(undefined, weatherSummary + ' It is currently ' +  temperature + ' degrees out. This high today is ' + temperatureHigh +' with a low of ' + temperatureLow)
         }
     })
 }
